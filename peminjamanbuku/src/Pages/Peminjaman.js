@@ -190,6 +190,8 @@ class Peminjaman extends React.Component {
             modalDeletePeminjaman,
             dataPeminjamanTerpilih
         } = this.state
+        console.log(dataPeminjamanTerpilih);
+        
 
         const optionNama = this.props.getAnggota.dataAnggota.map(item => ({
             key: item.id,

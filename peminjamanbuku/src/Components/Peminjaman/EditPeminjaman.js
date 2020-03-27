@@ -45,7 +45,7 @@ function EditPeminjaman(props) {
                     icon='checkmark'
                     labelPosition='right'
                     content='Simpan Data'
-                    onClick={(event) => props.handleSubmitEditPeminjaman(event)}
+                    onClick={(event) => props.handleSubmitEditPeminjaman(event, props.data.id_peminjaman)}
                 />
             </Modal.Actions>
         </Modal>

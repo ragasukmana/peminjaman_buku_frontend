@@ -15,7 +15,7 @@ function DeletePeminjaman(props) {
                     size='tiny'
                     positive
                     content='Setuju'
-                    onClick={(event) => props.handleSubmitDeletePeminjaman(event, props.data.id)}
+                    onClick={(event) => props.handleSubmitDeletePeminjaman(event, props.data.id_peminjaman)}
                 />
             </Modal.Actions>
         </Modal>
