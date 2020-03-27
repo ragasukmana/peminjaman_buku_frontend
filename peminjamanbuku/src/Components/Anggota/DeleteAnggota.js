@@ -1,10 +1,10 @@
 import React from 'react'
 import { Modal, Header, Button } from 'semantic-ui-react'
 
-function DeleteBuku(props) {
+function DeleteAnggota(props) {
     return (
         <Modal size={props.size} open={props.open} onClose={props.close}>
-            <Modal.Header textAlign='center'>Hapus data buku ?</Modal.Header>
+            <Modal.Header textAlign='center'>Hapus Anggota ?</Modal.Header>
             <Modal.Content>
                 <Header as='h3' textAlign='center'>Data ini akan terhapus dan tidak dapat dikembalikan</Header>
             </Modal.Content>
@@ -15,10 +15,10 @@ function DeleteBuku(props) {
                     size='tiny'
                     positive
                     content='Setuju'
-                    onClick={(event) => props.handleSubmitDeleteBuku(event, props.data.id)}
+                    onClick={(event) => props.handleSubmitDeleteAnggota(event, props.data.id)}
                 />
             </Modal.Actions>
         </Modal>
     )
 }
-export default DeleteBuku
+export default DeleteAnggota

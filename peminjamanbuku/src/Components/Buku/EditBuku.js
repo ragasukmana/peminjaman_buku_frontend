@@ -5,7 +5,7 @@ import {
     Button,
 } from 'semantic-ui-react'
 
-function TambahBuku(props) {
+function EditBuku(props) {
     return (
         <Modal size={props.size} open={props.open} onClose={props.close}>
             <Modal.Header>Edit Buku</Modal.Header>
@@ -49,4 +49,4 @@ function TambahBuku(props) {
     )
 }
 
-export default TambahBuku
+export default EditBuku
