@@ -8,7 +8,7 @@ import { Menu, Image } from 'semantic-ui-react'
 class Headers extends React.Component {
 
     state = {
-        activeItem: ''
+        activeItem: 'Buku'
     }
 
     handlePageClick = (e, { name }) => this.setState({ activeItem: name })

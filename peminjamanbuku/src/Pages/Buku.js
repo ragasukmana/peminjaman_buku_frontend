@@ -206,7 +206,7 @@ class Buku extends React.Component {
                                                 Pengarang: {item.pengarang}
                                             </div>
                                             <div class="description">
-                                                Harga: {item.harga}
+                                                Harga: Rp {item.harga}
                                             </div>
                                         </div>
                                     </Card>

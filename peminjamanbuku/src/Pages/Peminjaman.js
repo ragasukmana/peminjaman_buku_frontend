@@ -240,7 +240,7 @@ class Peminjaman extends React.Component {
                                                 <Table.Cell textAlign='center'>{item.invoice}</Table.Cell>
                                                 <Table.Cell textAlign='center'>{item.nama_anggota}</Table.Cell>
                                                 <Table.Cell textAlign='center'>{item.judul}</Table.Cell>
-                                                <Table.Cell textAlign='center'>{item.harga_sewa}</Table.Cell>
+                                                <Table.Cell textAlign='center'>Rp {item.harga_sewa}</Table.Cell>
                                                 <Table.Cell textAlign='center'>{Moment(item.data_created).format('DD/MM/YYYY')}</Table.Cell>
                                                 <Table.Cell textAlign='center'>
                                                     <Button primary size='mini'
